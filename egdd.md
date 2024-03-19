@@ -14,17 +14,15 @@ Cyber Spy is an educational puzzle game with a dramatic storyline attached. Cybe
   - Explanation: Much like our planned game, Hacknet is a hacking-based puzzle game in which the majority of gameplay comes in the form of typing commands in a Unix-like terminal. The main goal in Hacknet is to ‘hack’ into other computer systems, steal imaginary files, and acquire superuser privileges. It incorporates gameplay aspects like memory management (you can only run a certain amount of programs before you run out of memory) and a timer later on in the game to make doing so more difficult. We plan on taking inspiration from the terminal design, as well as aspects like the timer.
 - Mission Impossible
   - Medium: Movie
-  - Explanation: *We plan on creating a mission based game where the user must break into a facility (directory) using terminal commands. There will also be a time constraint. There will also be a butler/narrator character, much like the tech team in Mission impossible, that will guide you through your mission, providing hints and instructions as needed.*
+  - Explanation: We plan on creating a mission based game where the user must break into a facility (directory) using terminal commands. There will also be a time constraint. There will also be a butler/narrator character, much like the tech team in Mission impossible, that will guide you through your mission, providing hints and instructions as needed.
 
 ## Core Gameplay Mechanics (Brief)
 
-*Give a very high-level description of any core gameplay mechanics*
-
-- *Typing commands into terminal to perform actions*
-- *2D Navigation Throughout the facility*
-- *Item Collection within your inventory*
-- *Display success screen after completing a mission*
-- *Display defeat screen after failing a mission*
+- Typing commands into terminal to perform actions
+- 2D Navigation Throughout the facility
+- Item Collection within your inventory
+- Display success screen after completing a mission
+- Display defeat screen after failing a mission
 
 # Learning Aspects
 
@@ -34,11 +32,11 @@ Introductory Systems Programming
 
 ## Target Audiences
 
-*Incoming freshmen in college pursuing a computer science degree. Specifically students learning how to use bash commands.*
+Incoming freshmen in college pursuing a computer science degree. Specifically students learning how to use bash commands.
 
 ## Target Contexts
 
-*This could be used as an introductory assignment for CISC210. Students looking to practice their skills in the terminal can also play this game in their free time.*
+This could be used as an introductory assignment for CISC210. Students looking to practice their skills in the terminal can also play this game in their free time.
 
 ## Learning Objectives
 
@@ -49,8 +47,6 @@ After playing Cyber Spy, students should be able to traverse the terminal using 
 - *Short Name*: *Formal Learning Objective #3*
 
 ## Prerequisite Knowledge
-
-*What do they need to know prior to trying this game?*
 
 - Players should know how to type a minimum of 30 wpm
 - Players should know that commands can cause their computer to perform actions
@@ -138,9 +134,9 @@ cp
 
 ## Core Gameplay Mechanics (Detailed)
 
-- *Typing commands into your “terminal”*: *The majority of game interaction will take place by the player typing commands into their terminal. Assuming the user types the correct command sequence, they will be moved to their next task. The player will initially start with a limited number of basic commands such as ‘ls’, then as they progress further, unlock new commands through their companion. E.g., “use ‘cd’ to access a new directory, or in this case your backpack, with ‘cd backpack’”.*
-- *Picking up tools*: *A large part of the education in Cyber Spy will take place because of an increase in difficulty as a player progresses through levels. This increase will be due to the player picking up tools along the way in the form of new commands. Some of these commands will be highlighted/vibrating in levels for the player to collect, while others will be transferred directly to the players backpack via their companion. It is then up to the player to decide when the right time to use a given tool is.
-- *Traversal through a 2D *: *Describe in 2 paragraphs or less, along with how it generally works*
+- Typing commands into your “terminal”*: *The majority of game interaction will take place by the player typing commands into their terminal. Assuming the user types the correct command sequence, they will be moved to their next task. The player will initially start with a limited number of basic commands such as ‘ls’, then as they progress further, unlock new commands through their companion. E.g., “use ‘cd’ to access a new directory, or in this case your backpack, with ‘cd backpack’”.
+- Picking up tools*: *A large part of the education in Cyber Spy will take place because of an increase in difficulty as a player progresses through levels. This increase will be due to the player picking up tools along the way in the form of new commands. Some of these commands will be highlighted/vibrating in levels for the player to collect, while others will be transferred directly to the players backpack via their companion. It is then up to the player to decide when the right time to use a given tool is.
+- Navigation through 2D levels*: *The high-level goal of this game is to navigate your player sprite through several rooms of an advanced technology facility and destroy the internal corruption taking place there. You will navigate your player using terminal commands, and with the help of your companion to explain what new tools do as you collect them.
 
     
 ## Feedback
@@ -155,15 +151,13 @@ If a command is wrong, your companion will tell you it is wrong and give you a h
 
 ## Presentation of Rules
 
-*Players have a virtual assistant like Alfred is to Batman. Alfred will introduce your mission, tasks, and give you your tools (ls, cd, touch, etc.) as they become needed*
+Players have a virtual assistant like Alfred is to Batman. Alfred will introduce your mission, tasks, and give you your tools (ls, cd, touch, etc.) as they become needed.
 
 ## Presentation of Content
 
-*Players will slowly be given tools as mentioned before, and expected to use them at least one time before being given a different tool by alfred, e.g. Alfred: “You’re gonna need a wrench to break that glass. Use ls to view your backpack items, including the wrench I just gave you.”*
+Players will slowly be given tools as mentioned before, and expected to use them at least one time before being given a different tool by alfred, e.g. Alfred: “You’re gonna need a wrench to break that glass. Use 'ls' to view your backpack items, including the wrench I just gave you.”
 
 ## Story (Brief)
-
-*The Summary or TL;DR version of below*
 
 Our story will follow a hacker and his trusty companion through a series of missions to dethrone a corrupt organization. They will do this using a variety of commands to access the opposition's files, and take down their servers. All while attempting to be stealthy and quick enough to finish these missions before the time runs out. Will your coding abilities be able to save the world? Or will you fold under pressure? Who can be trusted? Cyber Spy will answer all of your questions.
 
@@ -174,7 +168,7 @@ Our story will follow a hacker and his trusty companion through a series of miss
 
 ## Aethestics
 
-*Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
+This game should feel high pressure, but rewarding. It should encourage players to code fast and also avoid mistakes. The aesthetics of the game will be dark, dramatic, and retro.
 
 ## Graphical
 
