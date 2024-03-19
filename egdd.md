@@ -138,9 +138,9 @@ cp
 
 ## Core Gameplay Mechanics (Detailed)
 
-- *Typing commands into your “terminal”*: *The majority of game interaction will be through the user typing a correct command sequence for the current mission into their terminal. Assuming the user types correctly, this will be how they traverse through tasks and levels.*
-- *Core Gameplay Mechanic #2*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #3*: *Describe in 2 paragraphs or less, along with how it generally works*
+- *Typing commands into your “terminal”*: *The majority of game interaction will take place by the player typing commands into their terminal. Assuming the user types the correct command sequence, they will be moved to their next task. The player will initially start with a limited number of basic commands such as ‘ls’, then as they progress further, unlock new commands through their companion. E.g., “use ‘cd’ to access a new directory, or in this case your backpack, with ‘cd backpack’”.*
+- *Picking up tools*: *A large part of the education in Cyber Spy will take place because of an increase in difficulty as a player progresses through levels. This increase will be due to the player picking up tools along the way in the form of new commands. Some of these commands will be highlighted/vibrating in levels for the player to collect, while others will be transferred directly to the players backpack via their companion. It is then up to the player to decide when the right time to use a given tool is.
+- *Traversal through a 2D *: *Describe in 2 paragraphs or less, along with how it generally works*
 
     
 ## Feedback
@@ -160,14 +160,14 @@ If a command is wrong, your companion will tell you it is wrong and give you a h
 ## Presentation of Content
 
 *Players will slowly be given tools as mentioned before, and expected to use them at least one time before being given a different tool by alfred, e.g. Alfred: “You’re gonna need a wrench to break that glass. Use ls to view your backpack items, including the wrench I just gave you.”*
+
 ## Story (Brief)
 
 *The Summary or TL;DR version of below*
 
+Our story will follow a hacker and his trusty companion through a series of missions to dethrone a corrupt organization. They will do this using a variety of commands to access the opposition's files, and take down their servers. All while attempting to be stealthy and quick enough to finish these missions before the time runs out. Will your coding abilities be able to save the world? Or will you fold under pressure? Who can be trusted? Cyber Spy will answer all of your questions.
+
 ## Storyboarding
-
-*Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
-
 ![alttext](Storyboard.jpg)
 
 # Assets Needed
@@ -179,17 +179,14 @@ If a command is wrong, your companion will tell you it is wrong and give you a h
 ## Graphical
 
 - Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
+  - Agent User
+  - Companion (Woz/Alfred)
 - Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
+  - Level entrances
 - Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
+  - Coding background
+  - Level select background
+  - Unique backgrounds for special directories
 
 
 ## Audio
@@ -198,14 +195,17 @@ If a command is wrong, your companion will tell you it is wrong and give you a h
 *Game region/phase/time are ways of designating a particularly important place in the game.*
 
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+  - General gameplay: 8 bit, eerie stealth music like the music from Batman Begins GBA: https://www.youtube.com/watch?v=MIppc7zfqis&list=PLO4jlmGoc6uAy9S9J3SPXv-UrHBm9Bgz9&index=2
+  - General gameplay: 8 bit, action music like the music from Batman Begins GBA:
+https://www.youtube.com/watch?v=Px-bsXoXdhc&list=PLO4jlmGoc6uAy9S9J3SPXv-UrHBm9Bgz9&index=1
   
 *Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
 
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
+  - Entering a line of code: pleasant ping noise found online
+  - Typing sounds: recorded by us or found on YouTube
+  - Error: Buzz/dud sound
+  - Dialogue: digital noises made to queue while speaking occurs, but all dialogue will be text written on the screen
 
 
 # Metadata
