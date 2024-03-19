@@ -28,7 +28,9 @@ Cyber Spy is an educational puzzle game with a dramatic storyline attached. Cybe
 
 ## Learning Domains
 
-Introductory Systems Programming
+Introduction Systems Programming
+Machine Organization and Assembly Language
+Introduction to Software Engineering
 
 ## Target Audiences
 
@@ -42,9 +44,11 @@ This could be used as an introductory assignment for CISC210. Students looking t
 
 After playing Cyber Spy, students should be able to traverse the terminal using the command line efficiently.
 
-- *Short Name*: *Formal Learning Objective #1*
-- *Short Name*: *Formal Learning Objective #2*
-- *Short Name*: *Formal Learning Objective #3*
+- By the end of the game, students should be able to access files using terminal commands
+- By the end of the game, students should be able to modify the contents a file using basic nano commands
+- By the end of the game, students should be able to navigate through different directories
+- By the end of the game, students should be able to move/remove files across different directories using terminal commands.
+- By the end of the game, students should be able to create and write to new directories and files.
 
 ## Prerequisite Knowledge
 
@@ -55,23 +59,18 @@ After playing Cyber Spy, students should be able to traverse the terminal using 
 
 *Describe how the learning will be assessed, e.g., pre/post multiple-choice test, or SAT, or some other instrument.*
 
+A short pre-test, and matching post-test.
+
 *If proposing a new instrument, briefly and concisely list some example assessment questions.*
 
 Given a directory name, utilize bash commands to access it.
 Given a file name, utilize bash commands to delete it.
-Given a file name, utilize bash commands to move it to another directory.
+Given a file and directory name, utilize bash commands to move it to another given directory.
 
 # What sets this project apart?
 
 - Most coding assessments that introduce students to the terminal don't intend to be entertaining, but our game will have fun graphics, an engaging story, and thrilling gameplay.
-
-*Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
-
-- *Reason #1*
-- *Reason #2*
-- *Reason #3*
-- *Reason #4*
-- *etc.*
+- The game will be educational yet still have aspects of a fun video game integrated seamlessly into it.
 
 # Player Interaction Patterns and Modes
 
@@ -116,7 +115,6 @@ rm
 touch
 cat
 mv
-mkdir
 cp
 
 # Objects/Entities
